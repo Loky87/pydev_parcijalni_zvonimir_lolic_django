@@ -10,7 +10,7 @@
             <h2 class="mb-0">Offer #{{ offer.id }}</h2>
         </div>
         <div class="col-md-6 text-end">
-            <a href="{% url 'offer_create' %}" class="btn btn-success">Create New Offer</a>
+            <a href="{% url 'create_offer' %}" class="btn btn-success">Create New Offer</a>
             <a href="{% url 'offer_edit' offer.id %}" class="btn btn-primary">Edit</a>
             <a href="{% url 'offer_list' %}" class="btn btn-secondary">Back to Offers</a>
         </div>
